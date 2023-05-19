@@ -15,7 +15,7 @@ import java.net.URL;
 public class FetchingdataUsingjavaApplication {
 
 	public static void main(String[] args) throws IOException {
-		URL getUrl = new URL("https://api.zippopotam.us/us/33162");
+		URL getUrl = new URL("https://api.nationalize.io/?name=nathaniel");
 		HttpURLConnection connection =(HttpURLConnection) getUrl.openConnection();
 		connection.setRequestMethod("GET");
 
